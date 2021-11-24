@@ -8,6 +8,7 @@ header{
 header li{
     display: inline;
     padding-left:24px;
+   
 
 }
 
@@ -21,6 +22,7 @@ header li a{
 header li a:hover{
     color: brown;
     text-decoration: underline;
+    
 }
 .active{
     color:brown
@@ -97,6 +99,7 @@ footer{
     background: #333 url(https://images.unsplash.com/photo-1551462577-9aaf3ff5d927?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1476&q=80);
     z-index: -1;
     
+    filter: brightness(50%)
     
 
 }
@@ -104,6 +107,8 @@ footer{
     padding: 60px;
     font-size: 32px;
     font-weight: bold;
+    
+
     
 }
 #section-a p{
@@ -137,7 +142,7 @@ footer{
     height: 450px;
     background: #333 url(https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80);
     z-index: -1;
-    
+    filter: brightness(50%)
 
 }
 #Esection-a h1{
@@ -197,7 +202,7 @@ footer{
     height: 450px;
     background: #333 url(https://images.unsplash.com/photo-1536227661368-deef57acf708?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
     z-index: -1;
-    
+    filter: brightness(50%)
 
 }
 #Csection-a h1{
@@ -325,7 +330,7 @@ footer{
     height: 450px;
     background: #333 url(https://images.unsplash.com/photo-1508014861016-f37cdf89e94d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1254&q=80);
     z-index: -1;
-    
+    filter: brightness(50%)
 
 }
 #Tsection-a h1{
