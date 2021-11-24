@@ -1,0 +1,355 @@
+
+
+header{
+    background-color: #313639;
+    padding: 15px;
+    box-shadow: 0 0 10px black;
+}
+header li{
+    display: inline;
+    padding-left:24px;
+
+}
+
+header li a{
+    color:blanchedalmond;
+    text-decoration: none;
+    padding: 13px;
+    transition: .4s ease;
+}
+
+header li a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+.active{
+    color:brown
+}
+nav .current{
+    background-color: black;
+
+}
+.home a.home, .tea_active a.tea_active, .espresso_active a.espresso_active, .coffee_active a.coffee_active{
+    border: 1px white;
+    border-radius: 5px;
+}
+
+#skip a {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+#skip a:focus {
+    height: auto;
+    position: static;
+    width: auto;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FFFFFF;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h1, h2,h3{
+    margin: 0;
+    padding: 20px
+}
+
+p{
+    margin:0;
+    padding:20px;
+}
+/*HOme page*/
+#section-a{
+    min-height: 450px;
+    color: #FFFFFF;
+    text-align: center;
+    
+    
+
+}
+
+footer{
+    margin:0;
+    padding:20px;
+    background-color: #252525;
+    color: #C0C0C0;
+
+}
+
+  
+
+#section-a .about-image{
+    position: absolute;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    background: #333 url(https://images.unsplash.com/photo-1551462577-9aaf3ff5d927?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1476&q=80);
+    z-index: -1;
+    
+    
+
+}
+#section-a h1{
+    padding: 60px;
+    font-size: 32px;
+    font-weight: bold;
+    
+}
+#section-a p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#section-b{
+    background: #C0C0C0; /*EASTER EGG- get it?... coco*/
+    color: #333;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+
+
+/* Espresso Page*/
+#Esection-a{
+    min-height: 450px;
+    color: #F2F2F2;
+    text-align: center;
+
+}
+#Esection-a .about-image{
+    position: absolute;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    background: #333 url(https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80);
+    z-index: -1;
+    
+
+}
+#Esection-a h1{
+    padding: 60px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.espresso-cards{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+
+}
+.espresso-cards * {
+    box-sizing: border-box;
+}
+
+.espresso-card{
+    box-shadow: 0 0 3px black;
+    margin: 20px 20px 20px 20px;
+
+}
+
+.card_image{
+    width: 100%;
+    display: block;
+}
+
+.card-content{
+    line-height: 1.5;
+    font-size:16px;
+    padding: 15px;
+    background: #fafafa;
+}
+
+/* Coffee Page*/
+#Csection-a{
+    min-height: 450px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: black;
+
+}
+#Csection-a .about-image{
+    position: absolute;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    background: #333 url(https://images.unsplash.com/photo-1536227661368-deef57acf708?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
+    z-index: -1;
+    
+
+}
+#Csection-a h1{
+    padding: 60px;
+    font-size: 32px;
+    font-weight: bold;
+    
+}
+
+.parent {
+    display: flex;
+    font-family: arial, sans-serif;
+  }
+  
+  .item {
+    width: 50%;
+    padding: 2em;
+    color: #ffffff;
+    background: #eeeeee;
+    min-height: 500px;
+    margin: ;
+  }
+  
+  .last {
+    color: #222;
+    background: #ccc;
+  }
+  .parent-two {
+    display: flex;
+    font-family: arial, sans-serif;
+  }
+  
+  .item-two{
+    width: 50%;
+    padding: 2em;
+    color: #ffffff;
+    background: #eeeeee;
+    min-height: 500px;
+  }
+  
+  .last-two {
+    color: #222;
+    background: #ccc;
+  }
+
+  .parent-three {
+    display: flex;
+    font-family: arial, sans-serif;
+  }
+  
+  .item-three {
+    width: 50%;
+    padding: 2em;
+    color: #ffffff;
+    background: #eeeeee;
+    min-height: 500px;
+  }
+  
+  .last-three {
+    color: #222;
+    background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px){
+    
+    .parent {
+      flex-direction: column-reverse;  
+    }
+    
+    .item {
+      width: auto;
+      min-height: 200px;
+    }
+    
+    .last {
+      background: #C0C0C0;
+    }
+    
+  
+  .parent-two{
+    flex-direction: column-reverse;  
+  }
+  
+  .item-two {
+    width: auto;
+    min-height: 200px;
+  }
+  
+  .last-two {
+    background: #C0C0C0;
+  }
+  
+  .parent-three {
+    flex-direction: column-reverse;  
+  }
+  
+  .item-three {
+    width: auto;
+    min-height: 200px;
+  }
+  
+  .last-three{
+    background: #C0C0C0;
+  }
+  }
+
+
+    /*Tea Page*/
+
+#Tsection-a{
+    min-height: 450px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+#Tsection-a .about-image{
+    position: absolute;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    background: #333 url(https://images.unsplash.com/photo-1508014861016-f37cdf89e94d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1254&q=80);
+    z-index: -1;
+    
+
+}
+#Tsection-a h1{
+    padding: 60px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+
+.tea_content_img{
+    min-width: 35rem;
+    max-width: 35rem;
+    height: 30rem;
+    transform: translate(-8rem);
+    position: relative;
+    
+
+}
+.tea_content_img img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .8rem;
+
+}
+
